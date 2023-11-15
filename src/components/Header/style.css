@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b2b8db;
+}
+
+*:focus {
+    outline: none;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    
+}
+
+ul {
+    padding: 16px;
+}
+
+.todo  {
+    border: 0px;
+    background-color: green;
+    border-radius: 9px;
+    justify-content: center;
+}
+
+.item > button {
+    border-radius: 50%;
+    border: 0;
+    background-color: green;
+    
+}
+
+
+button {
+    border: 0;
+    border-radius: 5px;
+    background-color: green;
+    color: rgb(238, 240, 199);
+    margin: 5px;
+}
+
